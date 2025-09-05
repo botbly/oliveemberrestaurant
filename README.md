@@ -19,7 +19,7 @@ This document explains how the [BotBly](https://botbly.com) chat widget is added
 Create `.env` in the project root.
 
 ```
-NEXT_PUBLIC_BOTBLY_BOT_ID=92f3d920-3429-4522-9ff7-e93bd86eefc6
+NEXT_PUBLIC_BOTBLY_BOT_ID=5dac91ab-4247-4119-9bc4-5b7316880c43
 NEXT_PUBLIC_BOTBLY_BOT_NAME=Ember
 NEXT_PUBLIC_BOTBLY_WIDGET_URL=https://cdn.jsdelivr.net/gh/botbly/widget-public@main/botbly-widget.js
 ```
@@ -171,3 +171,4 @@ Important
 - If you see multiple launchers, ensure `BotblyWidget` is rendered only once
 - If the script fails to load, verify `NEXT_PUBLIC_BOTBLY_WIDGET_URL` and check the network request in the browser dev tools
 - If TypeScript reports `window.botblyWidget` as unknown, confirm `types/botbly.d.ts` is included by your TS config and restart the dev server
+
